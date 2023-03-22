@@ -1,0 +1,93 @@
+.pay {
+  position: relative;
+  z-index: 1;
+  margin-top: -200px;
+}
+
+.wrapper {
+  padding: 80px;
+  background: #ebf3f5;
+  border: 2px solid #fff;
+  border-radius: 24px;
+}
+
+.pay-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-info {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #fff;
+}
+
+.title {
+  max-width: 450px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.text {
+  max-width: 400px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: $font-family-secondary;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.link {
+  display: block;
+  padding: 22px 36px;
+  font-size: 22px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.link-pay {
+  max-width: 255px;
+  margin-top: 50px;
+  color: #fff;
+  background-color: #4fad84;
+  border: 1px solid #4fad84;
+
+  &:hover {
+    color: #4fad84;
+    background-color: #ebf3f5;
+  }
+}
+
+.link-learn {
+  max-width: 208px;
+  margin-top: 20px;
+  color: #4fad84;
+  background-color: #ebf3f5;
+  border: 1px solid #4fad84;
+
+  &:hover {
+    color: #fff;
+    background-color: #4fad84;
+  }
+}
+
+.invoice-image {
+  border-radius: 8px;
+}
+
+.figcaption {
+  max-width: 750px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: $font-family-secondary;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
