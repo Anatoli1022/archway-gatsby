@@ -1,0 +1,47 @@
+.security {
+  position: relative;
+  z-index: 1;
+  margin-top: 140px;
+  margin-bottom: -130px;
+}
+
+.security-container {
+  display: flex;
+  padding: 40px 80px 58px 40px;
+  background-color: #1a2147;
+  border-radius: 24px;
+}
+
+.container-support {
+  padding-left: 50px;
+  margin-left: 90px;
+  border-left: 1px solid #323b69;
+}
+
+.content {
+  margin-left: 40px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.text {
+  margin-top: 22px;
+  margin-bottom: 0;
+  font-size: 17px;
+  line-height: 1.65;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.link {
+  display: block;
+  margin-top: 20px;
+  font-size: 17px;
+  color: #4fad84;
+}
