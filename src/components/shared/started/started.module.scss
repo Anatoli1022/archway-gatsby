@@ -1,0 +1,112 @@
+.started {
+  padding-top: 258px;
+  padding-bottom: 144px;
+  background-color: #f0e4cf;
+}
+
+.title-started {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 72px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.container-started {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 186px;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.information {
+  max-width: 460px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: $font-family-secondary;
+  font-size: 24px;
+}
+
+.text {
+  margin-top: 23px;
+  margin-bottom: 0;
+  font-size: 22px;
+  line-height: 1.45;
+}
+
+.link {
+  display: inline-block;
+  padding: 22px 36px;
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.link-businesses {
+  background-color: #4fad84;
+  border: 1px solid #4fad84;
+
+  &:hover {
+    color: #4fad84;
+    background: none;
+  }
+}
+
+.link-contractors {
+  background-color: #8f6ff6;
+  border: 1px solid #8f6ff6;
+
+  &:hover {
+    color: #8f6ff6;
+    background: none;
+  }
+}
+
+.wrapper-quote {
+  padding-top: 80px;
+  margin-top: 80px;
+  border-top: 1px solid rgb(0 0 0 / 10%);
+}
+
+.image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.blockquote {
+  margin-top: 60px;
+  margin-bottom: 0;
+  font-family: $font-family-secondary;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #4fad84;
+  text-align: center;
+}
+
+.cite {
+  display: block;
+  margin-top: 50px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.cite-span {
+  display: block;
+  margin-top: 15px;
+  opacity: 0.7;
+}

@@ -1,0 +1,59 @@
+.hero {
+  padding-top: 152px;
+  padding-bottom: 102px;
+  background: #faf8f2;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-info {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #fff;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.title-span {
+  display: block;
+  font-family: $font-family-secondary;
+  font-size: 76px;
+  font-weight: 400;
+}
+
+.text {
+  max-width: 540px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.button {
+  display: block;
+  padding: 22px 36px;
+  margin-top: 60px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  background-color: #935939;
+  border: 1px solid #935939;
+  border-radius: 8px;
+  transition: 0.2s;
+
+  &:hover {
+    color: #935939;
+    background: none;
+  }
+}
