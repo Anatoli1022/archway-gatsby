@@ -11,24 +11,24 @@ const cx = classNames.bind(styles);
 const Header = () => (
   <header className={cx('header')}>
     <div className={cx('container', 'header-container')}>
-      <a href="/">
+      <Link to="/">
         <img src={header} alt="Archway" loading="eager" />
-      </a>
+      </Link>
       <ul className={cx('list')}>
         <li className={cx('item')}>
-          <a href="/business" className={cx('link')}>
+          <Link to="/business" className={cx('link')}>
             business
-          </a>
+          </Link>
         </li>
         <li className={cx('item')}>
-          <a href="/dados" className={cx('link')}>
+          <Link to="/dados" className={cx('link')}>
             DAOs
-          </a>
+          </Link>
         </li>
         <li className={cx('item')}>
-          <a href="/contractors" className={cx('link')}>
+          <Link to="/contractors" className={cx('link')}>
             contractors
-          </a>
+          </Link>
         </li>
       </ul>
       <div className={cx('button-wrapper')}>

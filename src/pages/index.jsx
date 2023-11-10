@@ -15,8 +15,8 @@ const HomePage = () => (
     <Hero />
     <Pay />
     <Solution />
-    <Crypto />
     <Globally />
+    <Crypto />
     <Get />
   </Layout>
 );
