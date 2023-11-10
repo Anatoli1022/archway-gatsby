@@ -4,7 +4,7 @@
 
 .wrapper {
   padding: 153px 54px 100px;
-  background-color: #ebf3f5;
+  background-color: $color-tertiary;
   border-top-left-radius: 99999px;
   border-top-right-radius: 99999px;
 }
@@ -33,14 +33,14 @@
   margin-left: auto;
   font-size: 22px;
   font-weight: 800;
-  color: #fff;
-  background-color: #1a2147;
-  border: 1px solid #1a2147;
+  color: $color-secondary;
+  background-color: $color-primar;
+  border: 1px solid $color-primar;
   border-radius: 8px;
   transition: 0.2s;
 
   &:hover {
-    color: #1a2147;
+    color: $color-primar;
     background: none;
   }
 }

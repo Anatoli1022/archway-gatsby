@@ -1,7 +1,7 @@
 .hero {
   padding-top: 152px;
   padding-bottom: 102px;
-  background: #ebf3f5;
+  background: $color-tertiary;
 }
 
 .hero-container {
@@ -14,7 +14,7 @@
   padding: 8px 12px;
   font-size: 14px;
   text-transform: uppercase;
-  background-color: #fff;
+  background-color: $color-secondary;
 }
 
 .title {
@@ -47,14 +47,14 @@
   margin-top: 60px;
   font-size: 22px;
   font-weight: 800;
-  color: #fff;
-  background-color: #1a2147;
-  border: 1px solid #1a2147;
+  color: $color-secondary;
+  background-color: $color-primar;
+  border: 1px solid $color-primar;
   border-radius: 8px;
   transition: 0.2s;
 
   &:hover {
-    color: #1a2147;
+    color: $color-primar;
     background: none;
   }
 }

@@ -49,7 +49,7 @@
   transition: 0.2s;
 
   &:nth-child(1) {
-    color: #fff;
+    color: $color-secondary;
     background-color: #4fad84;
     border: 1px solid #4fad84;
     border-radius: 8px;
@@ -67,7 +67,7 @@
     border-radius: 8px;
 
     &:hover {
-      color: #fff;
+      color: $color-secondary;
       background-color: #4fad84;
     }
   }

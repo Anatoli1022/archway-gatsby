@@ -32,7 +32,7 @@
 
 .link {
   font-size: 20px;
-  color: #1a2147;
+  color: $color-primar;
   text-decoration: none;
   transition: 0.2s;
 
@@ -46,27 +46,27 @@
   font-size: 16px;
   font-weight: 800;
   cursor: pointer;
-  border: 1px solid #1a2147;
+  border: 1px solid $color-primar;
   border-radius: 8px;
   transition: 0.2s;
 
   &:nth-child(1) {
-    color: #1a2147;
+    color: $color-primar;
     background: none;
 
     &:hover {
-      color: #fff;
-      background-color: #1a2147;
+      color: $color-secondary;
+      background-color: $color-primar;
     }
   }
 
   &:nth-child(2) {
     margin-left: 12px;
-    color: #fff;
-    background-color: #1a2147;
+    color: $color-secondary;
+    background-color: $color-primar;
 
     &:hover {
-      color: #1a2147;
+      color: $color-primar;
       background: none;
     }
   }

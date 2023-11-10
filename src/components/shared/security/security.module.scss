@@ -8,7 +8,7 @@
 .security-container {
   display: flex;
   padding: 40px 80px 58px 40px;
-  background-color: #1a2147;
+  background-color: $color-primar;
   border-radius: 24px;
 }
 
@@ -27,7 +27,7 @@
   margin-bottom: 0;
   font-size: 22px;
   font-weight: 800;
-  color: #fff;
+  color: $color-secondary;
 }
 
 .text {
@@ -35,7 +35,7 @@
   margin-bottom: 0;
   font-size: 17px;
   line-height: 1.65;
-  color: #fff;
+  color: $color-secondary;
   opacity: 0.8;
 }
 
