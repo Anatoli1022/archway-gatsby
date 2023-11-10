@@ -48,13 +48,13 @@
   font-size: 22px;
   font-weight: 800;
   color: $color-secondary;
-  background-color: $color-primar;
-  border: 1px solid $color-primar;
+  background-color: $color-primary;
+  border: 1px solid $color-primary;
   border-radius: 8px;
   transition: 0.2s;
 
   &:hover {
-    color: $color-primar;
+    color: $color-primary;
     background: none;
   }
 }
